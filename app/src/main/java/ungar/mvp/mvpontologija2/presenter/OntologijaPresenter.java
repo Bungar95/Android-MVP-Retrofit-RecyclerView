@@ -1,7 +1,11 @@
 package ungar.mvp.mvpontologija2.presenter;
 
 import android.util.Log;
+import android.view.View;
 import android.widget.Toast;
+
+import com.google.android.material.snackbar.BaseTransientBottomBar;
+import com.google.android.material.snackbar.Snackbar;
 
 import java.util.List;
 

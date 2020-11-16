@@ -12,6 +12,7 @@ public interface OntologijaSucelje {
         void init();
 
         void onGetResult(List<Ontologija> ontologijaList);
+
     }
 
     interface Presenter{
