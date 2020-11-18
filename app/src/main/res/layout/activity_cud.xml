@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/labelNaziv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Naziv" />
+
+        <EditText
+            android:id="@+id/editNaziv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Naziv elementa"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/labelTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tip" />
+
+        <EditText
+            android:id="@+id/editTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tip elementa"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/labelOpis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opis" />
+
+        <EditText
+            android:id="@+id/editOpis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Opis elementa"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/labelAnotacije"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sve anotacije" />
+
+        <EditText
+            android:id="@+id/editAnotacije"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sve anotacije vezane uz element"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnDodaj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dodaj novi"
+            android:padding="30dp"
+            android:layout_margin="25dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
